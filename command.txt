@@ -1,0 +1,5 @@
+python index.py -d ./dataset -i index.csv
+python search.py -i index.csv -q ./query/query_ponda.jpg -r ./result/query_ponda
+python search.py -i index.csv -q ./query/query_bicycle.jpg -r ./result/query_bicycle
+python search.py -i index.csv -q ./query/query_greenery.jpg -r ./result/query_greenery
+python search.py -i index.csv -q ./query/query_sunflower.jpg -r ./result/query_sunflower
